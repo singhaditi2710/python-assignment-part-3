@@ -1,0 +1,7 @@
+[2026-04-05 13:14:46] ERROR in fetch_products: ConnectionError — No connection could be made
+[2026-04-05 13:14:46] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 999
+[2026-04-05 13:16:52] ERROR in fetch_products: ConnectionError — No connection could be made
+[2026-04-05 13:16:52] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 999
+[2026-04-05 13:17:13] ERROR in fetch_products: ConnectionError — No connection could be made
+[2026-04-05 13:17:13] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 999
+Error occurred: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /data (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7eca5b9bf560>: Failed to resolve 'api.example.com' ([Errno -2] Name or service not known)"))
